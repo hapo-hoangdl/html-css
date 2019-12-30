@@ -1,25 +1,65 @@
-@font-face {
-	src: url("../font/Roboto-Light.ttf");
-	src: url("../font/Roboto-Italic.ttf");
-	src: url("../font/Roboto-Regular.ttf");
-	src: url("../font/Roboto-Medium.ttf");
+
+
+.icon-animaltion:hover {
+	transform: scale(1.3,1.3);
 }
 
-* {
-	margin: 0;
-	padding: 0;
+.icon-menu {
+	font-size: 36px;
+	margin-right: 19px;
 }
 
-body {
-	width: 1900px;
+.text .text-first {
+	font: 48px roboto;
+	margin: 100px 0 20px 0;
+}
+
+.text-first:hover {
+	transform: scale(1.1,1.1);
+}
+
+.text .text-two {
+	margin-bottom: 28px;
+	font: 14px roboto;
+	height: 16px;
+	width: 470px;
+}
+
+.text-three {
+	margin-bottom: 45px;
+	font: 13px roboto;
+	height: 168px;
+	width: 555px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.start-now {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+}
+
+.text .start .start-now {
+	text-decoration: none;
+	color: white;
 }
 
 .start:hover {
 	transform: rotate(3deg);
 }
 
-.icon-animaltion:hover {
-	transform: scale(1.3,1.3);
+.background-two {
+	height: 354px;
+	width: 555px;
+	margin: 100px 0 100px 30px;
+	background: url("../image/daily.png");
 }
 
 /* header */
@@ -28,7 +68,7 @@ body {
 	background: url("../image/header.png") no-repeat;
 	background-size: contain;
 	width: 1900px;
-	height: 873px;
+	height: 865px;
 }
 
 .header .main-menu {
@@ -116,18 +156,15 @@ body {
 	font: 18px roboto;
 	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
 	padding: 15px 20px 15px 48px;
-	text-decoration: none;
 }
 
 .header .start-now-header .start-now:hover {
 	transform: scale(1.2,1.2);
+	text-decoration: none;
+	color: white;
 }
 
 /* end header */
-
-/* content */
-
-/* today */
 
 .today {
 	display: flex;
@@ -139,122 +176,20 @@ body {
 .today .background {
 	height: 371px;
 	width: 555px;
-	background: url("../image/todaylearn.png")no-repeat;
-	margin: 100px 0 100px 390px;
-}
-
-.today .text {
-	margin: 100px 0 0 30px;
-}
-
-.today .text .text-first {
-	font: 48px roboto;
-	margin-bottom: 20px;
-}
-
-.today .text .text-first:hover {
-	transform: scale(1.1,1.1);
-}
-
-.today .text .text-first .ti-bookmark-alt {
-	font-size: 36px;
-	margin-right: 19px;
-}
-
-.today .text .text-two {
-	margin-bottom: 28px;
-	font: 14px roboto;
-	height: 16px;
-	width: 470px;
-}
-
-.today .text .text-three {
-	margin-bottom: 45px;
-	font: 13px roboto;
-	height: 168px;
-	width: 555px;
-	line-height: 24px;
-	text-align: justify;
-}
-
-.today .text .start-now-today {
-	color: white;
-	border-color: #8bc34a;
-	width: 220px;
-	height: 50px;
-	border-radius: 100px;
-	box-shadow: 2px 3px 1px #D8D8D8;
-	font: 18px roboto;
-	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
-	padding: 15px 47px 15px 47px;
-	text-decoration: none;
+	background: url("../image/todaylearn.png") no-repeat;
+	margin: 100px 30px 110px 390px;
 }
 
 /* end today */
-/* daily */
 
 .daily {
 	display: flex;
 	flex-direction: row;
 	width: 1900px;
-}
-
-.daily .text {
-	margin: 100px 0 0 390px;
-}
-
-.daily .text .text-first {
-	font: 48px roboto;
-	margin-bottom: 20px;
-}
-
-.daily .text .text-first:hover {
-	transform: scale(1.1,1.1);
-}
-
-.daily .text .text-first .ti-write {
-	font-size: 36px;
-	margin-right: 18px;
-}
-
-.daily .text .text-two {
-	margin-bottom: 28px;
-	font: 14px roboto;
-	height: 16px;
-	width: 470px;
-}
-
-.daily .text .text-three {
-	margin-bottom: 45px;
-	font: 13px roboto;
-	height: 168px;
-	width: 555px;
-	line-height: 25px;
-	text-align: justify;
-}
-
-.daily .text .start-now-daily {
-	color: white;
-	border-color: #8bc34a;
-	width: 220px;
-	height: 50px;
-	border-radius: 100px;
-	box-shadow: 2px 3px 1px #D8D8D8;
-	font: 18px roboto;
-	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
-	padding: 15px 47px 15px 47px;
-	text-decoration: none;
-}
-
-.daily .background {
-	height: 354px;
-	width: 555px;
-	margin: 100px 0 100px 30px;
-	background: url("../image/daily.png");
+	padding-left: 390px;
 }
 
 /* end daily */
-/* option */
 
 .option {
 	background-image: linear-gradient(to right, #429321 , #b4ec51);
@@ -309,46 +244,21 @@ body {
 }
 
 /*end option */
-/* members */
 
 .members {
 	display: flex;
 	flex-direction: row;
 	width: 1900px;
+	padding-left: 389px;
 }
 
-.members .text {
-	margin: 100px 0 0 389px;
-}
-
-.members .text .text-first {
-	font: 48px roboto;
-	margin-bottom: 15px;
-}
-
-.members .text .text-first:hover {
-	transform: scale(1.1,1.1);
-}
-
-.members .text .text-first .ti-user {
-	font-size: 36px;
-	margin-right: 18px;
-}
-
-.members .text .text-two {
-	font: 14px roboto;
-	height: 16px;
-	width: 470px;
-	margin-bottom: 29px;
-}
-
-.members .text .text-three {
+.members .text .text-four {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 17px;
 }
 
-.members .text .text-three .ti-check-box {
+.members .text .text-four .ti-check-box {
 	font-size: 18px;
 	color: #8bc34a;
 	margin-right: 18px;
@@ -359,7 +269,7 @@ body {
 	width: 555px;
 }
 
-.members .text .text-three .text {
+.members .text .text-four .text {
 	width: 600px;
 	height: 45px;
 	text-align: left;
@@ -371,19 +281,6 @@ body {
 	line-height: 24px;
 }
 
-.members .start-now-members {
-	color: white;
-	border-color: #8bc34a;
-	width: 220px;
-	height: 50px;
-	border-radius: 100px;
-	box-shadow: 2px 3px 1px #D8D8D8;
-	font: 18px roboto;
-	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
-	padding: 15px 47px 15px 47px;
-	text-decoration: none;
-}
-
 .members .background {
 	background-image: url(../image/members.png);
 	height: 388px;
@@ -393,82 +290,45 @@ body {
 }
 
 /* end members */
-/* customers */
 
 .customers {
 	display: flex;
 	flex-direction: row;
 	box-shadow: 10px -5px 10px #D8D8D8;
 	width: 1900px;
+	padding-left: 360px;
 }
-
-.customers .background {
-	height: 354px;
-	width: 555px;
-	margin:124px 30px 119px	391px;
-	background: url("../image/daily.png") no-repeat;
-}
-
 .customers .text .text-first {
-	font: 48px roboto;
-	margin: 100px 225px 15px 0;
+	margin-top: 80px;
 }
 
-.customers .text .text-first:hover {
-	transform: scale(1.1,1.1);
+.customers .background-two {
+	margin-right: 30px;
 }
 
-.customers .text .ti-face-smile {
-	font-size: 36px;
-	margin-right: 19px;
-}
-
-
-.customers .text .text-two {
-	font: 13px roboto;
-	height: 16px;
-	width: 470px;
-	margin-bottom: 28px;
-}
-
-.customers .text .text-three {
+.customers .text .text-four {
 	display: flex;
 	flex-direction: row;
 }
 
-.customers .text .text-three .text {
-	width: 550px;
+.customers .text .text-four .text {
+	width: 555px;
 	height: 45px;
-	margin-bottom: 20px;
 	font: 13px roboto;
 }
 
-.customers .text .text-three div {
+.customers .text .text-four div {
 	color: #8bc34a;
 	font-size: 18px;
 	margin-right: 14px;
 }
 
 .customers .text .text-big {
-	margin-bottom: 15px;
 	width: 555px;
-}
-
-.customers .text .start-now-customers {
-	color: white;
-	border-color: #8bc34a;
-	width: 220px;
-	height: 50px;
-	border-radius: 100px;
-	box-shadow: 2px 3px 1px #D8D8D8;
-	font: 18px roboto;
-	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
-	padding: 15px 47px 15px 47px;
-	text-decoration: none;
+	margin-bottom: 30px;
 }
 
 /* end customers */
-/* our-customers */
 
 .our-customers {
 	background-image: url("../image/bannerend.png");
@@ -550,71 +410,15 @@ body {
 }
 
 /* end our-customers */
-/* project */
 
 .project {
 	display: flex;
 	flex-direction: row;
 	width: 1900px;
-}
-
-.project .text {
-	margin: 100px 0 0 390px;
-}
-
-.project .text .text-first .ti-calendar {
-	font-size: 36px;
-	margin-right: 18px;
-}
-
-.project .text .text-first:hover {
-	transform: scale(1.1,1.1);
-}
-
-.project .text .text-first {
-	margin-bottom: 15px;
-	font: 48px roboto;
-}
-
-.project .text .text-two {
-	margin-bottom: 28px;
-	font: 14px roboto;
-	height: 16px;
-	width: 470px;
-}
-
-.project .text .text-three {
-	font: 13px roboto;
-	line-height: 24px;
-	height: 168px;
-	width: 555px;
-	margin-bottom: 30px;
-	text-align: justify;
-}
-
-.project .start-now-project {
-	color: white;
-	border-color: #8bc34a;
-	width: 220px;
-	height: 50px;
-	border-radius: 100px;
-	box-shadow: 2px 3px 1px #D8D8D8;
-	font: 18px roboto;
-	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
-	padding: 15px 47px 15px 47px;
-	text-decoration: none;
-}
-
-.project .background {
-	height: 354px;
-	width: 555px;
-	margin: 100px 0 100px 30px;
-	background-size: cover;
-	background: url("../image/daily.png") no-repeat;
+	padding-left: 390px;
 }
 
 /* end project */
-/* footer */
 
 .footer {
 	background-color: #283238;
@@ -634,7 +438,7 @@ body {
 	background: url("../image/hapoErp.png") no-repeat;
 }
 
-.footer .text-hapo {
+.footer .text-hapo {	
 	padding-top: 36px;
 	width: 120px;
 	height: 13px;
@@ -662,5 +466,3 @@ body {
 	letter-spacing: 38px;
 	text-decoration: none;
 }
-
-/* end footer */
