@@ -14,6 +14,10 @@ body {
 	width: 1900px;
 }
 
+.start:hover {
+	transform: rotate(3deg);
+}
+
 /* header */
 
 .header {
@@ -36,14 +40,28 @@ body {
 	border-radius: 30px;
 	width: 80px;
 	height: 36px;
-	color: #8bc34a;
 	padding: 10px 10px 10px 17px;
 	font: bold 12px roboto;
-	margin: -10px 0 0 38px;
+	margin: -5px 0 0 38px;
 }
 
-.header .main-menu .aboutus {
+.header .main-menu .signin-text {
+	text-decoration: none;
+	color: #8bc34a;
+}
+
+.header .main-menu .signin:hover {
+	transform: scale(1.2,1.2);
+}
+
+.header .main-menu .aboutus:hover {
+	transform: scale(1.2,1.2);
+}
+
+.header .main-menu .aboutus a {
 	font: bold 12px roboto;
+	color: black;
+	text-decoration: none;
 }
 
 .header .logo {
@@ -91,6 +109,10 @@ body {
 	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
 	padding: 15px 20px 15px 48px;
 	text-decoration: none;
+}
+
+.header .start-now-header .start-now:hover {
+	transform: scale(1.2,1.2);
 }
 
 /* end header */
@@ -142,7 +164,7 @@ body {
 	text-align: justify;
 }
 
-.today .start-now-today {
+.today .text .start-now-today {
 	color: white;
 	border-color: #8bc34a;
 	width: 220px;
@@ -154,7 +176,6 @@ body {
 	padding: 15px 47px 15px 47px;
 	text-decoration: none;
 }
-
 
 /* end today */
 /* daily */
@@ -591,6 +612,11 @@ body {
 
 .footer .footer-header {
 	width: 200px;
+}
+
+.footer .footer-header .text {
+	text-decoration: none;
+	color: white;
 }
 
 .footer .end {
