@@ -1,0 +1,606 @@
+@font-face {
+	src: url("../font/Roboto-Light.ttf");
+	src: url("../font/Roboto-Italic.ttf");
+	src: url("../font/Roboto-Regular.ttf");
+	src: url("../font/Roboto-Medium.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1900px;
+}
+
+/* header */
+
+.header {
+	background: url("../image/header.png") no-repeat;
+	background-size: contain;
+	width: 1900px;
+	height: 873px;
+}
+
+.header .main-menu {
+	padding-top: 41px;
+	list-style: none;
+	display: flex;
+  	flex-direction: row-reverse;
+  	margin-right: 390px;
+}
+
+.header .main-menu .signin {
+	border: 1px solid #8bc34a;
+	border-radius: 30px;
+	width: 80px;
+	height: 36px;
+	color: #8bc34a;
+	padding: 10px 10px 10px 17px;
+	font: bold 12px roboto;
+	margin: -10px 0 0 38px;
+}
+
+.header .main-menu .aboutus {
+	font: bold 12px roboto;
+}
+
+.header .logo {
+	margin: 190px 0 48px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.header .icon {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 48px;
+}
+
+.header .icon .list-icon {
+	width: 300px;
+}
+
+.header .icon .list-icon .text {
+	font-size: 36px;
+}
+
+.header .text-header {
+	font: 18px roboto;
+	display: flex;
+	justify-content: center;
+	margin-top: 53px;
+}
+
+.header .start-now-header {
+	display: flex;
+	justify-content: center;
+	margin-top: 49px;
+}
+
+.header .start-now-header .start-now {
+	color: white;
+	border-color: #8bc34a;
+	width: 195px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 20px 15px 48px;
+	text-decoration: none;
+}
+
+/* end header */
+
+/* content */
+
+/* today */
+
+.today {
+	display: flex;
+	flex-direction: row;
+	box-shadow: -10px 5px 10px #D8D8D8;
+	width: 1900px;
+}
+
+.today .background {
+	height: 371px;
+	width: 555px;
+	background: url("../image/todaylearn.png")no-repeat;
+	margin: 100px 0 100px 390px;
+}
+
+.today .text {
+	margin: 100px 0 0 30px;
+}
+
+.today .text .text-first {
+	font: 48px roboto;
+}
+
+.today .text .text-first .ti-bookmark-alt {
+	font-size: 36px;
+	margin-right: 19px;
+}
+
+.today .text .text-two {
+	margin-bottom: 28px;
+	font: 14px roboto;
+	height: 16px;
+	width: 470px;
+}
+
+.today .text .text-three {
+	margin-bottom: 45px;
+	font: 13px roboto;
+	height: 168px;
+	width: 555px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.today .start-now-today {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+	text-decoration: none;
+}
+
+
+/* end today */
+/* daily */
+
+.daily {
+	display: flex;
+	flex-direction: row;
+	width: 1900px;
+}
+
+.daily .text {
+	margin: 100px 0 0 390px;
+}
+
+.daily .text .text-first {
+	font: 48px roboto;
+}
+
+.daily .text .text-first .ti-write {
+	font-size: 36px;
+	margin-right: 18px;
+}
+
+.daily .text .text-two {
+	margin-bottom: 28px;
+	font: 14px roboto;
+	height: 16px;
+	width: 470px;
+}
+
+.daily .text .text-three {
+	margin-bottom: 45px;
+	font: 13px roboto;
+	height: 168px;
+	width: 555px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.daily .text .start-now-daily {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+	text-decoration: none;
+}
+
+.daily .background {
+	height: 354px;
+	width: 555px;
+	margin: 100px 0 100px 30px;
+	background: url("../image/daily.png");
+}
+
+/* end daily */
+/* option */
+
+.option {
+	background-image: linear-gradient(to right, #429321 , #b4ec51);
+	background-size: contain;
+	height: 322px;
+	width: 1900px;
+	display: flex;
+	justify-content: center;
+}
+
+.option .one-content {
+	padding: 0 4%;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.option .one-content .big-content {
+	height: 90px;
+	width: 90px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.option .one-content .small-content {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	background-color: #7CB342;
+	margin: -30px 0 0 26px;
+}
+
+.option .one-content .small-content span {
+	color: white;
+	font: 20px roboto;
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+.option .one-content p {
+	color: white;
+	font: 16px roboto;
+	text-align: center;
+}
+
+/*end option */
+/* members */
+
+.members {
+	display: flex;
+	flex-direction: row;
+	width: 1900px;
+}
+
+.members .text {
+	margin: 100px 0 0 389px;
+}
+
+.members .text .text-first {
+	font: 48px roboto;
+	margin-bottom: 15px;
+}
+
+.members .text .text-first .ti-user {
+	font-size: 36px;
+	margin-right: 18px;
+}
+
+.members .text .text-two {
+	font: 14px roboto;
+	height: 16px;
+	width: 470px;
+	margin-bottom: 29px;
+}
+
+.members .text .text-three {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 17px;
+}
+
+.members .text .text-three .ti-check-box {
+	font-size: 18px;
+	color: #8bc34a;
+	margin-right: 18px;
+}
+
+.members .text .text-big {
+	margin-bottom: 45px;
+	width: 555px;
+}
+
+.members .text .text-three .text {
+	width: 600px;
+	height: 45px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font: 13px roboto;
+	margin: 0 0 0 0;
+	line-height: 24px;
+}
+
+.members .start-now-members {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+	text-decoration: none;
+}
+
+.members .background {
+	background-image: url(../image/members.png);
+	height: 388px;
+	width: 555px;
+	background-size: cover;
+	margin: 100px 0 100px 20px;
+}
+
+/* end members */
+/* customers */
+
+.customers {
+	display: flex;
+	flex-direction: row;
+	box-shadow: 10px -5px 10px #D8D8D8;
+	width: 1900px;
+}
+
+.customers .background {
+	height: 354px;
+	width: 555px;
+	margin:124px 30px 119px	391px;
+	background: url("../image/daily.png") no-repeat;
+}
+
+.customers .text .text-first {
+	font: 48px roboto;
+	margin: 100px 225px 15px 0;
+}
+
+.customers .text .ti-face-smile {
+	font-size: 36px;
+	margin-right: 19px;
+}
+
+
+.customers .text .text-two {
+	font: 13px roboto;
+	height: 16px;
+	width: 470px;
+	margin-bottom: 28px;
+}
+
+.customers .text .text-three {
+	display: flex;
+	flex-direction: row;
+}
+
+.customers .text .text-three .text {
+	width: 550px;
+	height: 45px;
+	margin-bottom: 20px;
+	font: 13px roboto;
+}
+
+.customers .text .text-three span {
+	color: #8bc34a;
+	font-size: 18px;
+	margin-right: 14px;
+}
+
+.customers .text .text-big {
+	margin-bottom: 15px;
+	width: 555px;
+}
+
+.customers .text .start-now-customers {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+	text-decoration: none;
+}
+
+/* end customers */
+/* our-customers */
+
+.our-customers {
+	background-image: url("../image/bannerend.png");
+	background-size: cover;
+	width: 1900px;
+	height: 554px;
+}
+
+.our-customers .text {
+	color: white;
+	padding-top: 50px;
+	word-spacing: 5px;
+	font: 48px roboto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 48px;
+}
+
+.our-customers .avartar-header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.our-customers .avartar-header .avartar {
+	width: 140px;
+}
+
+.our-customers .avartar-header .avartar .text-avartar-one {
+	color: white;
+	opacity: 0.8;
+	font-size: 13px;
+	margin-top: 16px;
+}
+
+.our-customers .avartar-header .avartar .text-avartar-two {
+	color: white;
+	opacity: 0.8;
+	font-size: 10px;
+	margin-top: -16px;
+}
+
+.our-customers .text-second .ti-quote-left {
+	color: white;
+	font-size: 72px;
+	opacity: 0.4;
+	display: flex;
+	justify-content: center;
+	margin-right: 27px;
+
+}
+
+.our-customers .text-second .ti-quote-right {
+	color: white;
+	font-size: 72px;
+	opacity: 0.4;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -100px;
+	margin-top: -30px;
+}
+
+.our-customers .text-second {
+	color: white;
+	display: flex;
+	justify-content: center;
+	word-spacing: 5px;	
+	opacity: 0.8;
+	font: 15px roboto;
+	margin-top: 39px;
+}
+
+.our-customers .text-second p {
+	line-height: 30px;
+}
+
+/* end our-customers */
+/* project */
+
+.project {
+	display: flex;
+	flex-direction: row;
+	width: 1900px;
+}
+
+.project .text {
+	margin: 100px 0 0 390px;
+}
+
+.project .text .text-first .ti-calendar {
+	font-size: 36px;
+	margin-right: 18px;
+}
+
+.project .text .text-first {
+	margin-bottom: 15px;
+	font: 48px roboto;
+}
+
+.project .text .text-two {
+	margin-bottom: 28px;
+	font: 14px roboto;
+	height: 16px;
+	width: 470px;
+}
+
+.project .text .text-three {
+	font: 13px roboto;
+	line-height: 24px;
+	height: 168px;
+	width: 555px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.project .start-now-project {
+	color: white;
+	border-color: #8bc34a;
+	width: 220px;
+	height: 50px;
+	border-radius: 100px;
+	box-shadow: 2px 3px 1px #D8D8D8;
+	font: 18px roboto;
+	background: #8bc34a linear-gradient(to right, #429321 , #b4ec51);
+	padding: 15px 47px 15px 47px;
+	text-decoration: none;
+}
+
+.project .background {
+	height: 354px;
+	width: 555px;
+	margin: 100px 0 100px 30px;
+	background-size: cover;
+	background: url("../image/daily.png") no-repeat;
+}
+
+/* end project */
+/* footer */
+
+.footer {
+	background-color: #283238;
+	background-size: contain;
+	width: 1900px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 179px;
+	color: white;
+	padding-top: 60px;
+}
+
+.footer .footer-header .hapo-erp {
+	height: 29px;
+	width: 96px;
+	background: url("../image/hapoErp.png") no-repeat;
+}
+
+.footer .text-hapo {
+	padding-top: 36px;
+	width: 120px;
+	height: 13px;
+}
+
+.footer .header-text {
+	color: #8bc34a;
+}
+
+.footer .footer-header {
+	width: 200px;
+}
+
+.footer .end {
+	padding-top: 70px;
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	color: #8bc34a;
+	letter-spacing: 38px;
+	text-decoration: none;
+}
+
+/* end footer */
