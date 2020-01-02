@@ -423,6 +423,7 @@
 	word-spacing: 5px;	
 	opacity: 0.8;
 	font: 15px roboto;
+	margin-left: -80px;
 }
 
 .our-customers .text-second p {
@@ -469,7 +470,7 @@
 }
 
 .footer .footer-header {
-	width: 200px;
+	width: 180px;
 }
 
 .footer .footer-header .text {
@@ -485,6 +486,7 @@
 	color: #8bc34a;
 	letter-spacing: 38px;
 	text-decoration: none;
+	padding-left: 30px;
 }
 
 /* end footer */
