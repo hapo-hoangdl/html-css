@@ -4,16 +4,15 @@
 
 .icon-menu {
 	font-size: 36px;
-	margin-right: 19px;
+	margin: 20px 19px 0 0;
 }
 
 .text .text-first {
-	font: 48px roboto;
-	margin: 100px 0 20px 0;
-}
-
-.text-first:hover {
-	transform: scale(1.1,1.1);
+	margin: 90px 0 20px 0;
+	display: flex;
+	flex-direction: row;
+	font-size: 48px;
+	font-weight: lighter;
 }
 
 .text .text-two {
@@ -22,7 +21,7 @@
 	height: 16px;
 	width: 470px;
 }
-
+	
 .text-three {
 	margin-bottom: 45px;
 	font: 13px roboto;
@@ -47,10 +46,6 @@
 .text .start .start-now {
 	text-decoration: none;
 	color: white;
-}
-
-.start:hover {
-	transform: rotate(3deg);
 }
 
 .background-two {
@@ -108,6 +103,7 @@
 	font: bold 12px roboto;
 	color: black;
 	text-decoration: none;
+	font-weight: lighter;
 }
 
 .header .logo {
@@ -121,10 +117,12 @@
 	justify-content: center;
 	text-align: center;
 	font-size: 48px;
+	font-weight: lighter;
 }
 
 .header .icon .list-icon {
 	width: 300px;
+	font-weight: lighter;
 }
 
 .header .icon .list-icon .text {
@@ -237,8 +235,9 @@
 
 .option .one-content p {
 	color: white;
-	font: 16px roboto;
+	font-size: 16px;
 	text-align: center;
+	margin-top: 10px;
 }
 
 /*end option */
@@ -297,7 +296,7 @@
 	padding-left: 360px;
 }
 .customers .text .text-first {
-	margin-top: 80px;
+	margin-top: 70px;
 }
 
 .customers .background-two {
@@ -339,10 +338,11 @@
 	color: white;
 	padding-top: 50px;
 	word-spacing: 5px;
-	font: 48px roboto;
+	font-size: 48px;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 48px;
+	font-weight: lighter;
 }
 
 .our-customers .avartar-header {
@@ -460,9 +460,8 @@
 }
 
 .footer .text-hapo {	
-	padding-top: 36px;
-	width: 120px;
-	height: 13px;
+	padding-top: 40px;
+	font-size: 10px;
 }
 
 .footer .header-text {
@@ -470,26 +469,28 @@
 }
 
 .footer .footer-header {
-	width: 180px;
+	margin-left: 70px;
+	margin-right: 35px;
 }
 
 .footer .footer-header .text {
 	text-decoration: none;
 	color: white;
+	font-size: 10px;
 }
 
-.footer .end {
+.end {
 	padding-top: 70px;
 	font-size: 13px;
 	display: flex;
 	flex-direction: row;
-	color: #8bc34a;
-	letter-spacing: 38px;
+	justify-content: center;
 	text-decoration: none;
-	padding-left: 30px;
+	letter-spacing: 30px;
+	margin-left: 50px;
 }
 
-.footer .end div a i {
+.footer .end p a i {
 	color: #8bc34a;
 }
 
